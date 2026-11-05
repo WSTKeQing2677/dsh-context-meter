@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Context remaining",
+    "description": "A permanent context-remaining reading beside the composer, measured against the auto-compaction threshold, colored by band, with one plain sentence when it is time to start a new session."
+  },
+  "meter.line": "{head} · {toCompact} · {toLimit}",
+  "meter.toCompact": "{value} to compact",
+  "meter.toLimit": "{value} to limit",
+  "tier.roomy": "Roomy",
+  "tier.half": "Half gone",
+  "tier.tight": "Tight",
+  "tier.leave": "Time to go",
+  "tier.last": "Last stretch",
+  "hint.roomy": "Plenty of room — chat away.",
+  "hint.half": "Half of it is gone; what is left still goes a long way.",
+  "hint.tight": "It is getting tight — stick to the point.",
+  "hint.leave": "Time to part — start a new session, I will still know you.",
+  "hint.last": "Leave now, or I will start forgetting what we said.",
+  "unit.value": "{value}k",
+  "unit.under": "<1k"
+}

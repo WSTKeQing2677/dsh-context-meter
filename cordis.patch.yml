@@ -1,0 +1,7 @@
+# Context Meter — profile layer.
+# The Host half is inert; the Web UI behavior lives in client.js, which registers
+# one reading into conversation.input.left (the composer's leading control row).
+- insert:
+    - id: context-meter
+      name: 'dsh-context-meter'
+      config: {}

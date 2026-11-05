@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "上下文余量",
+    "description": "在输入框左侧常驻一行上下文余量，按自动压缩阈值换算，分档变色并在临界时用一句人话提醒开新会话。"
+  },
+  "meter.line": "{head} · {toCompact} · {toLimit}",
+  "meter.toCompact": "距压缩 {value}",
+  "meter.toLimit": "距上限 {value}",
+  "tier.roomy": "宽裕",
+  "tier.half": "过半",
+  "tier.tight": "吃紧",
+  "tier.leave": "该走了",
+  "tier.last": "最后一程",
+  "hint.roomy": "还早着呢，随便聊。",
+  "hint.half": "一半没了，剩下的够用一阵。",
+  "hint.tight": "有点挤了，说重点吧。",
+  "hint.leave": "该到分别的时候了——开个新会话，我还认得你。",
+  "hint.last": "再不走，前面说过的话我就要忘了。",
+  "unit.value": "{value}万",
+  "unit.under": "不足1万"
+}

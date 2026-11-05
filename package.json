@@ -1,0 +1,51 @@
+{
+  "name": "dsh-context-meter",
+  "version": "1.0.0",
+  "description": "Keeps a compact context-remaining reading beside the composer, measured against DSH's own auto-compaction threshold, and says when it is time to start a new session.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "the dsh plugin authors",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "context",
+    "compaction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-github-user>/dsh-context-meter.git"
+  },
+  "homepage": "https://github.com/<your-github-user>/dsh-context-meter#readme",
+  "bugs": {
+    "url": "https://github.com/<your-github-user>/dsh-context-meter/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

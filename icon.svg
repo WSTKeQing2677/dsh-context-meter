@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Context meter">
+  <rect width="64" height="64" rx="14" fill="#1d2b3a"/>
+  <path d="M14 42a18 18 0 0 1 36 0" fill="none" stroke="#3c556e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M14 42a18 18 0 0 1 13.4-17.3" fill="none" stroke="#6fd0a8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M45.6 27.6A18 18 0 0 1 50 42" fill="none" stroke="#f08a6a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M32 42l8.5-9.5" fill="none" stroke="#eef6ff" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="32" cy="42" r="3.6" fill="#eef6ff"/>
+  <rect x="17" y="47" width="30" height="3" rx="1.5" fill="#2a3f55"/>
+</svg>
