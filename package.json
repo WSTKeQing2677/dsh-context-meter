@@ -15,11 +15,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-github-user>/dsh-context-meter.git"
+    "url": "https://github.com/WSTKeQing2677/dsh-context-meter.git"
   },
-  "homepage": "https://github.com/<your-github-user>/dsh-context-meter#readme",
+  "homepage": "https://github.com/WSTKeQing2677/dsh-context-meter#readme",
   "bugs": {
-    "url": "https://github.com/<your-github-user>/dsh-context-meter/issues"
+    "url": "https://github.com/WSTKeQing2677/dsh-context-meter/issues"
   },
   "exports": {
     ".": "./index.js",

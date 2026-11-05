@@ -43,7 +43,7 @@ DSH 宿主自己已经显示了一个占窗口的百分比（比如 54%）。这
 ## 安装
 
 ```bash
-git clone https://github.com/<your-github-user>/dsh-context-meter.git
+git clone https://github.com/WSTKeQing2677/dsh-context-meter.git
 ```
 
 然后在 DSH 会话里对 AI 说：
