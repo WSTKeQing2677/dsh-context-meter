@@ -72,6 +72,16 @@ git clone https://github.com/WSTKeQing2677/dsh-context-meter.git
 - 正在思考/执行时，宿主可能暂时隐藏输入框里那一行控件，这行字会跟着消失一会儿。
 - 不显示百分比（见上）。
 
+## 自测
+
+仓库里带一个离线冒烟测试，不联网、不需要 DSH：
+
+```bash
+node test/smoke.mjs
+```
+
+它检查：模块 id 等于包名、`inject` 里有 `slots`/`locale`、只注册一次到 `conversation.input.left`、`order` 是 40、中英文字典键集一致。改完代码先跑它，比装上去刷新页面快得多。
+
 ## License
 
 MIT，见 [LICENSE](LICENSE)。
