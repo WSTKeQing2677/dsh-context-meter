@@ -1,6 +1,6 @@
 {
   "name": "dsh-context-meter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Keeps a compact context-remaining reading beside the composer, measured against DSH's own auto-compaction threshold, and says when it is time to start a new session.",
   "private": true,
   "type": "module",
